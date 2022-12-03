@@ -1,12 +1,95 @@
-.profil-card {
-    background-color: yellow;
-}
-.head {
-    background-color: aqua;
-}
-.name-headline {
-    background-color: blueviolet;
-}
-.content {
-    background-color: brown;
-}
+
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  .profile-card {
+    width: 480px;
+    max-width: calc(100vw - 10px);
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .head, .links {
+    text-align: center;
+  }
+  .head, {
+    width: 40%;
+    margin: 0 auto;
+  }
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    display: inline;
+  }.head, .about {
+    margin-bottom: 10%;
+  }
+  
+  .content {
+    padding: 5% 10%;
+    text-align: center;
+    width: 49%;
+    margin: 0 auto;
+    background-color: rgba(123, 224, 7, 0.8);
+    margin-left: 45%;
+    border-radius: 10%;
+    border-style:double;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  body {
+    background: url(./assets/IMG_4316.JPG) no-repeat center center fixed;
+    background-size: cover;
+  }.profile-card {
+    background-color: hsla(0, 0%, 100%, .5);
+    border-radius: 4px;
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  }
+  .head {
+    background-color: rgba(123, 224, 7, 0.8);
+    margin-left: 50%;
+    margin-right: 10%;
+    margin-bottom: 20%;
+    background-image: linear-gradient(yellow, green);
+    border-radius: 50%;
+    border-style:double;
+    box-shadow: 
+  }
+  h1{
+    font-size: xx-large;
+    text-shadow: 2px 2px greenyellow;
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
+  p {
+    font-style: italic;
+    font-weight: 550;
+  }
+  h2 {
+    font-size: larger;
+    line-height: 2em;
+  }
+  h3 {
+    font-size: larger;
+    ;
+  }
+  h1:hover {
+    transform: scale(1.4);
+  }
+  h2:hover {
+    transform: scale(1.4);
+  }
+  p:hover {
+    
+  }
+  a:hover {
+    color: yellow;
+  }
+  
